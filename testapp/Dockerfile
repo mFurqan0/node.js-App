@@ -1,7 +1,7 @@
 FROM node
 
 ENV MONGO_DB_UsERNAME=admin
-ENV MONGO_DB_PASSWORD=qwerty
+ENV MONGO_DB_PWD=qwerty
 
 RUN mkdir -p testapp 
 
